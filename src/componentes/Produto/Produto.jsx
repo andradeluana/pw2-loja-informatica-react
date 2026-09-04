@@ -5,7 +5,7 @@ import logoHp from "./hp.jpg";
 import logoDell from "./dell.jpg";
 import logoPositivo from "./positivo.png";
 import logoAsus from "./asus.jpg";
-import logoGenerico from "./Generico.png";
+import logoGenerico from "./generico.png";
 
 const Produto = (props) => {
     const imagensDasMarcas = {
