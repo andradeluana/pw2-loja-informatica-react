@@ -48,7 +48,8 @@ const Formulario = (props) => {
 
                 <CampoTexto
                     label="Preço (R$)"
-                    placeholder="Digite o preço"
+                    tipo="number"
+                    placeholder="Digite o preço ex: 299.90"
                     valor={preco}
                     aoAlterado={valor => setPreco(valor)}
                 />
